@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:wght@900&display=swap');
+
+body{
+    margin:0;
+    font-family:'Inter';
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+main{
+    width:595px;
+    margin:auto;
+    background-color: #FFFFFF;
+    padding-bottom:34px;
+    box-sizing: padding-box;
+}
+
+h1{ 
+    font-family:'Nunito Sans';
+    color:#E5E5E5;
+    font-weight:900;
+    font-size:54.17px;
+    line-height:73.88px;
+    background-image: linear-gradient(to bottom, #FFFFFF 50%,#162347 50% );
+    text-shadow: 0px 0px 3px black;
+    text-align:center;
+    width:494px;
+    margin:auto;
+    margin-bottom:45px;
+}
+
+p{
+    width:529px;
+    text-align:justify;
+    margin:auto;
+    padding-bottom:15px;
+    text-indent:15px;
+    font-size:12px;
+    line-height:14.52px;
+    font-weight: 400;
+}
+
+span{
+    display:block;
+    margin:auto;
+    width:529px;
+    text-align: right;
+    font-size:15px;
+    font-weight:900;
+    margin-top:36px;    
+}
+
+nav{
+    background-color:#050a16;
+    padding:10px;
+}
+
+nav, a{
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+    font-family:'Inter';
+    text-decoration: none;
+}
+
+a{
+    margin-right:20px;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 0.2s ease-in-out 100ms;
+    color: #dde6ff;
+}

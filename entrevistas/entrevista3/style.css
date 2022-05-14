@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;900&family=Nunito+Sans:ital,wght@0,900;1,800&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Inter';
+    color:#162347;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+main{
+    width:595px;
+    margin:auto;
+    border: 1px black solid;
+    padding-top:18px;
+    background-color: #FFF;
+}
+
+h1{
+    font-family:'Nunito Sans';
+    font-weight:900;
+    font-size:54.17px;
+    line-height:73.88px;
+    text-align:center;
+    background-image: linear-gradient(to bottom, #FFFFFF 50%, #C6C9DF 50%);
+    color:#162347;
+    width:306px;
+    margin:auto;
+    margin-bottom:60px;
+}
+
+div{
+    margin-left:33px;
+    margin-bottom:71px;
+}
+
+img, h3{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+h3{
+    font-family:'Nunito Sans', sans-serif;
+    font-size:15px;
+    font-style:italic;
+    line-height:20.46px;
+    color:#C6C9DF;
+}
+
+#texto-formatado{
+    font-weight:900;
+    font-style:normal;
+    font-size:20px;
+    line-height:27.28px;
+    color:#162347;
+}
+
+h4{
+    margin-left:33px;
+    font-size:15px;
+    font-weight:700;
+    line-height: 18.15px;
+    margin-bottom:22px;
+    margin-top:0;
+}
+
+p{
+    margin-left:53px;
+    font-weight: 600;
+    font-style:italic;
+    font-size:15px;
+    line-height:18.15px;
+    width:406px;
+    background-color:#C6C9DF;
+    padding: 8.36px 4px;
+    margin-bottom:22px;
+}
+
+#numero{
+    display:block;
+    width:18px;
+    margin-left:auto;
+    margin-top:87px;
+    margin-right:33px;
+    padding-bottom:34px;
+    font-weight:900;
+}
+
+nav{
+    background-color:#050a16;
+    padding:10px;
+}
+
+nav, a{
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+    font-family:'Inter';
+    text-decoration: none;
+}
+
+a{
+    margin-right:20px;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 0.2s ease-in-out 100ms;
+    color: #dde6ff;
+}
+

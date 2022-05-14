@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+/* ESTRUTURA DE EXIBIÇÃO */
+body{
+    margin:0;
+    font-family: 'Inter';
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+main{
+    width: 610px;
+    margin:auto;
+    background-image: url("bicicleta.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border: 1px solid;
+    position:relative;
+}
+
+#container{
+    padding-top: 52px;
+    padding-bottom: 78px;
+    background-color: #FFF;
+}
+
+section{
+    width:240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section:first-child{
+    margin-left:32px;
+    padding-right: 26px;
+    border-right:2px solid black;
+}
+
+section:last-child{
+    padding-left:31px;
+    padding-right: 33px;
+}
+
+/* CONTEUDO */
+/* PARAGRAFOS */
+p{
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    margin-bottom:16px;
+    text-indent:20px;
+}
+
+section p:first-child{
+    margin-top:0;
+}
+
+section:first-child p:last-child{
+    margin-top:12px;
+    
+}
+
+section:last-child p:first-child{
+    margin-bottom:20px;
+}
+/* NÚMERO DA PÁGINA */
+
+span{
+    width:8px;
+    margin-left:auto;
+    display: block;
+    font-weight: 900;
+    position:absolute;
+    bottom:34px;
+    right:34px;
+}
+
+nav{
+    background-color:#050a16;
+    padding:10px;
+}
+
+nav, a{
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+    font-family:'Inter';
+    text-decoration: none;
+}
+
+a{
+    margin-right:20px;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 0.2s ease-in-out 100ms;
+    color: #dde6ff;
+}

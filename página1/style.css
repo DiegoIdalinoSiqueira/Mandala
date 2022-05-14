@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Nunito+Sans:wght@900&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+body{
+    margin:0;
+    font-family: 'Inter';
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+h1{
+    margin:auto;
+    margin-bottom:59px;
+    padding-top:34px;
+    text-align: center;
+    padding-right:26px;
+    color:#FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:54px;
+    line-height:74px;
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 0.356);
+}
+
+#oque-e{
+    color:#162347;
+    text-shadow: none;
+}
+
+div{
+    display:flex;
+}
+
+main{
+    
+    margin:auto;
+    width:595px;
+    
+    background-image: linear-gradient(to right, #162347 0, #162347 50%, #FFFFFF 50%);
+
+}
+
+h2{
+    margin:auto;
+    max-width:80%;
+    margin-bottom:15px;
+    font-size:12px;
+}
+
+section{
+    max-width: 50%;
+}
+
+p{
+    max-width: 80%;
+    text-align: justify;
+    margin:  auto;
+    margin-bottom:10px;
+    font-size: 12px;
+    line-height:14.5px;
+}
+
+#esquerda{
+    color:#FFFFFF;
+}
+
+#direita{
+    color:#162347;
+    position: relative;
+}
+
+figure{
+    max-width:80%;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+img{
+    margin:auto;
+    display:block;
+    width:215px;
+}
+
+figcaption{
+    font-weight: 300;
+    font-style: italic;
+    font-size:10px;
+    line-height:12px;
+    max-width:300px;
+    text-align: center;
+    margin:auto;
+    color:black;
+    margin-top:15px;
+}
+
+#numero-pagina{
+    display:block;
+    width:80%;
+    text-align:right;
+    margin:auto;
+    margin-top:80px;
+    font-weight: 900;
+    line-height:18px;
+    font-size:15px;
+    padding-bottom: 34px;
+}
+
+nav{
+    background-color:#050a16;
+    padding:10px;
+}
+
+nav, a{
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+    font-family:'Inter';
+    text-decoration: none;
+}
+
+a{
+    margin-right:20px;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 0.2s ease-in-out 100ms;
+    color: #dde6ff;
+}
+

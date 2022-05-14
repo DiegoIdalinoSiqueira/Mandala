@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:wght@700&display=swap');
+
+body{
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.575);
+    font-family:'Nunito Sans';
+}
+
+main{
+    width:595px;
+    height: 842px;
+    background-color:#FFFFFF;
+    margin:auto;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-image:url("CARRINHOS.png");
+    background-repeat:no-repeat;
+    background-position: center 62px;
+}
+
+ol{
+    list-style:none;
+    width:307px;
+}
+
+li{
+    border-bottom: 5px solid #162347;
+}
+
+li:first-child{
+    border-top: 5px solid #162347;
+}
+
+.numero, .item-sumario{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.item-sumario{
+    width:233px;
+}
+
+.numero{
+    color:#162347;
+    font-weight:900;
+    font-size:50px;
+    line-height:68.2px;
+}
+
+h3{
+    color:#162347;
+    font-size:20px;
+    font-weight:800;
+    line-height:27.28px;
+    margin-top:0;
+    padding-top:10px;
+}
+
+p{
+    color:#C6C9DF;
+    font-weight:400;
+    font-size:15px;
+    line-height:20.46px;
+    margin-bottom:50px;
+    width:205px;
+}
+
+nav{
+    background-color:#050a16;
+    padding:10px;
+}
+
+nav, a{
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+    font-family:'Inter';
+    text-decoration: none;
+}
+
+a{
+    margin-right:20px;
+}
+
+a:hover{
+    font-size: 20px;
+    transition: 0.2s ease-in-out 100ms;
+    color: #dde6ff;
+}
